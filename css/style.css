@@ -1,0 +1,87 @@
+#wrap{width: 100%;}
+#header{width: 100%; position: absolute; top: 0; left: 0; z-index: 9999;}
+#section{}
+#footer{}
+
+.inner{max-width: 1300px; margin: 0 auto;}
+/*********************header****************************/
+
+#nav{width: 100%; height: 100px; background-color: #000000; opacity: 80%; z-index: 9;}
+
+#nav .depth1 {margin-left: 300px;}
+#nav .depth1 > li{float: left; font-size: 1em; text-align: center; padding-top: 30px;}
+#nav .depth1 li a:hover {color: #EC0909; font-weight: 500;}
+#nav .depth1 > li > a{color: #fff; display: block; padding:0 1.5em; margin: 0.5em 0;}
+
+    
+#nav .logo img{width: 110px; height: 70px; float: left; margin-top: 15px;}
+
+.header_right {float: right; padding-top: 38px;}
+.header_right p{color: #fff; font-size: 1rem; display: inline; }
+
+.lan a:first-child{display: inline-block; padding-right: 15px; border-right: 1px solid #fff; line-height: 0.9em;}
+.lan a:last-child{display: inline-block; padding-left: 10px; color: gray;}
+
+/*********************section0****************************/
+
+#se0 {width: 100%; margin-bottom: 200px;}
+
+/*********************section1****************************/
+#se1{width: 100%; margin-bottom: 200px;}
+#se1 .sec1_title{ text-align:center; margin-bottom: 50px;}
+#se1 h2{font-size: 45px; color: #4d4d4d;  font-weight: 300; margin-bottom: 20px;}
+#se1 h3{font-size: 17px; color: #929798;}
+#se1 .back{margin-top: 100px; width: 100%; height: 360px; background-color: #B9BEC4;}
+
+
+#se1 ul{float: left;}
+#se1 ul li{float: left;  margin-right: 30px;}
+#se1 .sec1_img img{width:300px; height: 500px;box-shadow: 3px 3px 3px 3px gray;}
+#se1 ul li:last-child{margin-right: 0;}
+
+
+
+#se1 .tex{height: 170px; text-align:center; margin-top: 20px;}                
+#se1 .text1{font-size: 18px; color: #fff; margin-bottom: 20px;}
+#se1 .text2{font-size: 14px; color: #fff;line-height: 20px;}
+#se1 .tex_box{background-color: rgba(0,0,0,0.7);  
+                width: 300px; height: 170px; margin-top: -170px; position: absolute;}
+
+#se1 .sec1_img{width: 300px; height: 500px; overflow: hidden; box-shadow: 3px 3px 3px 3px gray;}
+#se1 .sec1_img img{width: 100%; transition: 1s;}
+#se1 .sec1_img img:hover{transform: scale(1.2);}
+#se1::after{content: ' '; display: block; clear: both;}
+
+
+/*********************section2****************************/
+
+#se2{width: 100%; margin-bottom: 300px;}
+#se2 .all_labo div{width: 33.3333%; float: left; margin-bottom: 200px;}
+#se2 .all_labo div img{width: 100%;}
+
+               
+#se2 .labo_text1{font-size: 20px; color: #fff; margin-bottom: 20px; font-weight: 500;}
+#se2 .labo_text2{font-size: 14px; color: #fff;line-height: 20px;}
+
+/*********************section3****************************/
+#se3{width: 100%;}
+#se3 h2{font-size: 45px; color: #4d4d4d; text-align: center;  font-weight: 300; margin-bottom: 20px; border-bottom:0;}
+#se3 h3{font-size: 20px; color: #4d4d4d; margin-bottom: 30px; border-bottom: 0;}
+#se3 .search_block{margin-top: 100px;}
+#se3 .search{font-size: 15px; width: 350px; border-bottom: 2px solid #4d4d4d;}
+#se3 .warning {font-size: 12px; color: #EC0909; border-bottom: 0;}
+#se3 .s_box1{margin-bottom: 42px;}
+#se3 .s_box2{margin-bottom: 45px;}
+#se3 .click img{width: 20px; height: 20px; margin-bottom: 10px; margin-left: -25px;}
+
+
+
+#se3 .se3_back {width: 100%; height: 440px; background-color: #DDDDDD; margin-top: -1460px; position: absolute;
+z-index: -99;}
+/*********************footer****************************/
+
+
+
+@media all and (max-width:980px){
+
+}
