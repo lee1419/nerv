@@ -1,0 +1,122 @@
+#wrap{width: 100%;}
+#header{width: 100%; position: absolute; top: 0; left: 0; z-index: 9999;}
+#section{}
+#footer{}
+
+.inner{max-width: 1300px; margin: 0 auto;}
+/*********************header****************************/
+#nav{width: 100%; height: 100px; background-color: #000000; opacity: 80%; z-index: 9;}
+
+#nav .depth1 {margin-left: 300px;}
+#nav .depth1 > li{float: left; font-size: 1em; text-align: center; padding-top: 30px;}
+
+#nav .depth1 > li > a{color: #fff; display: block; padding:0 1.5em; margin: 0.5em 0;}
+#nav .depth1 li a:hover {color: #EC0909; font-weight: 500;} 
+#nav .logo img{width: 110px; height: 70px; float: left; margin-top: 15px;}
+
+.header_right {float: right; padding-top: 38px;}
+.header_right p{color: #fff; font-size: 1rem; display: inline; }
+
+.lan a:first-child{display: inline-block; padding-right: 15px; border-right: 1px solid #fff; line-height: 0.9em;}
+.lan a:last-child{display: inline-block; padding-left: 10px; color: gray;}
+
+/**********************se0********************************/
+#se0 {width: 100%; margin-bottom: 100px;}
+#se0 img{width: 100%; overflow: hidden;}
+
+/**********************se1********************************/
+#se1{width: 100%; margin-bottom: 100px;}
+#se1 .block{float: left; width: 8px; height: 112px; background-color: #EC0909;}
+#se1 .sec1_title{float: left; margin-left: 20px; text-align:left; margin-bottom: 90px;}
+#se1 h2{font-size: 45px; color: #4d4d4d;  font-weight: 400; margin-bottom: 15px;}
+#se1 h3{font-size: 17px; color: #929798; font-weight: 300;}
+#se1 .text1{float: left; font-size: 16px; line-height: 25px; color: #4d4d4d; margin-bottom: 90px;}
+
+/**********************se2********************************/
+#se2 .hu1{float: left; width: 100%; margin-bottom: 100px;}
+#se2 .img {float: left; width: 475px; height: 355px;}
+#se2 .text01 {float: left; padding-left: 20px; margin-top: 50px;}
+#se2 .text01 p{font-size: 22px; color: #4d4d4d; font-weight:600; margin-bottom: 30px;}
+#se2 .text01 ul{text-align: left; line-height: 25px;}
+#se2 .text01 li{font-size: 16px; color: #4d4d4d;}
+
+#se2 .hu2 {float: left;  width: 100%; margin-bottom: 100px;}
+#se2 .img_r {float: right;width: 475px; height: 355px;}
+#se2 .text02 {float: right; padding-right: 20px; margin-top: 50px;}
+#se2 .text02 p{text-align: right; font-size: 22px; color: #4d4d4d; font-weight:600; margin-bottom: 30px;}
+#se2 .text02 ul{text-align: right; line-height: 25px;}
+#se2 .text02 li{font-size: 16px; color: #4d4d4d;}
+
+#se2 .hu3{float: left; width: 100%; margin-bottom: 100px;}
+#se2 .img {float: left; width: 475px; height: 355px;}
+#se2 .text03 {float: left; padding-left: 20px; margin-top: 50px;}
+#se2 .text03 p{font-size: 22px; color: #4d4d4d; font-weight:600; margin-bottom: 30px;}
+#se2 .text03 ul{text-align: left; line-height: 25px;}
+#se2 .text03 li{font-size: 16px; color: #4d4d4d;}
+
+/**********************se3********************************/
+#se3 {width: 100%; margin-bottom: 100px; position: absolute; top: 2500px;}
+#se3 .clickbox {margin: 0 auto; width: 235px; height: 55px; border: 2px solid #EC0909;}
+#se3 .clickbox p{text-align: center; font-size: 16px; color: #EC0909; line-height: 55px;}
+#se3 .clickbox p:hover{transition: 1s; background-color: #EC0909; color: #fff;}
+/**********************footer********************************/
+#footer{width: 100%; background-color: #4d4d4d; position: relative;}
+
+#footer .local{float: left; font-size: 15px; line-height: 20px; color: #dddddd; margin-bottom: 35px; margin-top: 50px;}
+#footer .group ul{display: flex; position: absolute; top: 180px;}
+#footer .group ul li{width: 60px; height: 72px; margin-right: 10px;}
+#footer .group ul li img{width: 100%;}
+#footer .logo{float: right; width: 600px; height: 222px; margin-top: 50px;}
+#footer .danger{float: left; font-size: 14px; color: #929798; margin-top: 50px;}
+#footer .back{width: 100%; background-color: #4d4d4d; height: 400px; position: absolute; top: 2200px;}
+
+
+/*********************************************/
+
+@media all and (max-width:980px){
+
+    #nav{width: 963px; height: 100px; background-color: #000000; opacity: 80%; z-index: 9;}
+
+    #nav .depth1 {margin-left: 150px;}
+    #nav .depth1 > li{float: left; font-size: 15px; text-align: center; padding-top: 30px;}
+    #nav .depth1 li a:hover {color: #EC0909; font-weight: 500;}
+    #nav .depth1 > li > a{color: #fff; display: block; padding:0 1.5em; margin: 0.5em 0;}
+    
+        
+    #nav .logo img{width: 110px; height: 70px; float: left; margin-left: 20px; margin-top: 15px;}
+    
+    .header_right {float: right; padding-top: 38px; margin-right: 30px;}
+    .header_right p{color: #fff; font-size: 14px; display: inline; }
+    
+    .lan a:first-child{display: inline-block; padding-right: 15px; border-right: 1px solid #fff; line-height: 0.9em;}
+    .lan a:last-child{display: inline-block; padding-left: 10px; color: gray;}
+
+    #se1 {margin-left: 20px;}
+    #se1 .text1{font-size: 15px;}
+
+
+    #se2 .hu1 {margin-left: 20px;}
+    #se2 .img {float: left; width: 50%;}
+    #se2 .img img{width: 100%;}
+
+    #se2 .hu2 {float: right; margin-right: 20px;}
+    #se2 .img_r {float: right; width: 50%;}
+    #se2 .img img{width: 100%;}
+
+    #se2 .hu3 {margin-left: 20px;}
+
+    #se3 {width:980px; margin-top: 100px; margin-bottom: 100px; position: absolute; top: 2100px;}
+#se3 .clickbox {margin: 0 auto; width: 235px; height: 55px; border: 2px solid #EC0909;}
+#se3 .clickbox p{text-align: center; font-size: 16px; color: #EC0909; line-height: 55px;}
+#se3 .clickbox p:hover{transition: 1s; background-color: #EC0909; color: #fff;}
+
+    #footer{float: left; width: 100%; background-color: #4d4d4d; position: relative;}
+
+    #footer .local{float: left; margin-left: 20px; font-size: 15px; line-height: 20px; color: #dddddd; margin-bottom: 35px; margin-top: 50px;}
+    #footer .group ul{margin-left: 20px; display: flex; position: absolute; top: 180px;}
+    #footer .group ul li{width: 60px; height: 72px; margin-right: 10px;}
+    #footer .group ul li img{width: 100%;}
+    #footer .logo{float: right; width: 600px; height: 222px; margin-top: -70px; opacity: 50%;}
+    #footer .danger{margin-left: 20px; float: left; font-size: 14px; color: #929798; margin-top: 30px;}
+    #footer .back{width: 963px;  background-color: #4d4d4d; height: 400px; position: absolute; top: 200px;}
+}

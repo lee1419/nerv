@@ -184,7 +184,7 @@ ul.bxslider {
 
 .news_slide .bx-wrapper .bx-pager,
 .news_slide .bx-wrapper .bx-controls-auto {
-  display:none
+  display:block
 }
 .news_slide .bx-wrapper .bx-controls-direction a {
   position: absolute;
