@@ -30,7 +30,7 @@
 #se1 .sec1_title{float: left; margin-left: 20px; text-align:left; margin-bottom: 90px;}
 #se1 h2{font-size: 45px; color: #4d4d4d;  font-weight: 400; margin-bottom: 15px;}
 #se1 h3{font-size: 17px; color: #929798; font-weight: 300;}
-#se1 .text1{float: left; font-size: 16px; line-height: 25px; color: #4d4d4d; margin-bottom: 90px;}
+#se1 .text1{font-size: 16px; line-height: 25px; color: #4d4d4d; margin-bottom: 90px;}
 
 /**********************se2********************************/
 #se2 .hu1{float: left; width: 100%; margin-bottom: 100px;}
